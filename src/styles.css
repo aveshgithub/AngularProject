@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.navbar-default .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.navbar-dark .navbar-brand {
+    color: rgba(255,255,255,1) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+     color: rgba(255,255,255,1) !important; 
+}
+.container{
+    padding: 20px !important;
+    border: 1px solid #000 !important;
+    margin-top: 20px !important;
+    border-radius: 20px !important
+}
